@@ -135,7 +135,7 @@ func main() {
 		context.HTML(http.StatusOK, "index.html", gin.H{"res": member, "getbalance": a})
 
 	})
-	print("hellowoeld")
+	print("hello world")
 	engine.POST("/send", func(context *gin.Context) {
 		account := context.PostForm("address")
 		money := context.PostForm("money")
