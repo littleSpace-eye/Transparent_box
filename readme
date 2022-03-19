@@ -7,3 +7,4 @@
 5.通过solc和abigen将abi文件转化为go文件 命令为abigen --abi a.abi --pkg main --type ABi --out go-react.go  --alias Account=b
 6.
 
+// KAIFU test
