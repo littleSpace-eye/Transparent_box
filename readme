@@ -1,0 +1,9 @@
+1.运行水龙头项目首先要保证自己有私链，安装了metamask，以及在Gopath下有go的运行环境
+2.在启动项目前先操作npm install -g solc 这是智能合约编译的工具
+3.在项目中 输入go get github.com/ethereum/go-ethereum引用以太坊工具
+4.进入刚刚的github.com/ethereum/go-ehereum安装abigen工具
+5.安装教程 make
+          make devtools
+5.通过solc和abigen将abi文件转化为go文件 命令为abigen --abi a.abi --pkg main --type ABi --out go-react.go  --alias Account=b
+6.
+
